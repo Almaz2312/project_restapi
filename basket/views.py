@@ -1,5 +1,4 @@
 from rest_framework import generics, views, response, status
-# from rest_framework.exceptions import PermissionDenied, NotAcceptable
 from django.db.models import Sum
 from rest_framework.response import Response
 

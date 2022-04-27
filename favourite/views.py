@@ -1,8 +1,5 @@
 from rest_framework import generics, response, status, views
-from django.shortcuts import render
-from django.shortcuts import get_object_or_404
 
-from products.models import Product
 from .permissions import IsAuthor
 from .serializers import FavouriteSerializer
 from .models import Favourite
